@@ -18,7 +18,7 @@
 
   <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
     .attribution {
       font-size: 11px;
@@ -32,21 +32,47 @@
 </head>
 
 <body>
-  <div class="test">
-    teste
-  </div>
 
-  You’ve used 815 GB of your storage
+  <main class="main">
 
-  185 GB Left
+    <!-- primeira box -->
+    <div class="icons-storage-box">
+      <header class="icons-storage-hdr">
+        <img src="images\logo.svg">
+      </header>
+      <div class="icons-storage-icons">
+        <img src="images\icon-document.svg">
+        <img src="images\icon-folder.svg">
+        <img src="images\icon-upload.svg">
+      </div>
+    </div>
 
-  0 GB
-  1000 GB
+    <!-- segunda box -->
+    <div class="status-storage-box">
+      <p>You’ve used <strong>815 GB</strong> of your storage</p>
+      <div class="status-storage-bar">
+        <div class="status-storage-bar-active">
+          <span class="status-storage-bar-active-circle">⚪</span>
+        </div>
+      </div>
+      <div class="status-storage-numbers">
+        <span>0 GB</span>
+        <span>1000 GB</span>
+      </div>
+    </div>
+    <div class="status-storage-balloon">
+      <p><span class="status-storage-balloon-185GB">185</span> GB Left</p>
+    </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Odisseu93" target="_blank">Ulises silvério</a>.
+    </div>
+  </footer>
+
 </body>
 
 </html>
