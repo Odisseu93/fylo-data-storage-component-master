@@ -7,10 +7,15 @@
   margin: 0;
   box-sizing: border-box;
 }
-* body {
+
+body {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
+  background-image: url("../images/bg-mobile.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
