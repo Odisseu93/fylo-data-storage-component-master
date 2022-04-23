@@ -29,12 +29,9 @@
 
 
   .icons-storage-box
-    display: flex
-    flex-direction: column
-    flex-wrap: wrap
+    @include mixins.flex-box($direction: column)
     padding-left: 2.6em
     padding-top: 3em
-    flex-wrap: wrap
     background: variables.$background-Dark-Blue-color
     width: 90%
     height: 200px
@@ -77,14 +74,14 @@
       margin-bottom: 0.7em 
 
       .status-storage-bar-active
-        display: flex
+        @include mixins.flex-box
         justify-content: flex-end
         background: variables.$storage-status-bar-pink-color
         width: 81.5%
         border-radius: 90px
 
     .status-storage-numbers  
-      display: flex
+      @include mixins.flex-box
       width: 75%
       justify-content: space-between
 

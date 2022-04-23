@@ -28,10 +28,8 @@
   .icons-storage-box {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding-left: 2.6em;
     padding-top: 3em;
-    flex-wrap: wrap;
     background: hsl(228deg, 56%, 26%);
     width: 90%;
     height: 200px;
@@ -76,6 +74,7 @@
   }
   .status-storage-box .status-storage-bar .status-storage-bar-active {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     background: linear-gradient(hsl(6deg, 100%, 80%), hsl(335deg, 100%, 65%));
     width: 81.5%;
@@ -83,6 +82,7 @@
   }
   .status-storage-box .status-storage-numbers {
     display: flex;
+    flex-direction: row;
     width: 75%;
     justify-content: space-between;
   }
