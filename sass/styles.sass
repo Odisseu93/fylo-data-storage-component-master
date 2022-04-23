@@ -13,14 +13,9 @@
 
 
 //mobile
-@media (min-width:320px) and (max-width:425px)
+@include mixins.media-query($min:320px, $max:425px)
     
-  
-  body
-      width: 100vw
-      height: 100vh
-      background-image: url('../images/bg-mobile.png')
-      background-size: cover
+  @include mixins.body-content($bg-url:'../images/bg-mobile.png')
     
   .main
     @include mixins.flex-column-center
@@ -111,8 +106,9 @@
       color: green
 
 
-
-
+//desktop  
+@include mixins.media-query($min:1024px, $max:1600px)
+  @include mixins.body-content($bg-url:'../images/bg-desktop.png')
 
    
    

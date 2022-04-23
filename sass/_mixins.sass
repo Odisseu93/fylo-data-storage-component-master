@@ -1,3 +1,4 @@
+@use 'variables'
 
 @mixin flex-column-center
   display: flex
@@ -8,6 +9,14 @@
 @mixin flex-box($direction: row)
   display: flex
   flex-direction: $direction
+
+@mixin body-content($bg-url:'../images/bg-mobile.png')
+      body
+        background: variables.$background-very-Dark-Blue-color
+        width: 100vw
+        height: 100vh
+        background-image: url($bg-url)
+        background-size: cover  
 
 //mixin para media queries, tem que passar a largura mínima e máxima como parâmetros  
 @mixin media-query($min: 320px, $max: 425px)
