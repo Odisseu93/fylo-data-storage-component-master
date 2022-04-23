@@ -5,7 +5,7 @@
 ## Bem vindo! 👋
 
 
-Estes é  um desafio proposto no [Frontend Mentor](https://www.frontendmentor.io) Lá tem desafios que ajudam você a melhorar as suas *coding skills by building realistic projects*. [PÁGINA](https://odisseu93.github.io/fylo-data-storage-component-master/)  
+Este é  um desafio proposto no [Frontend Mentor](https://www.frontendmentor.io) lá tem desafios que ajudam você a melhorar as suas *coding skills by building realistic projects*. [PÁGINA](https://odisseu93.github.io/fylo-data-storage-component-master/)  
 
 
 ## The challenge
@@ -26,9 +26,9 @@ O desafio é construir esse componente de armazenamento de dados e fazê-lo pare
 
 ### O que eu aprendi
 
-usar a stylesheet language SASS e algumas das suas funcionalidades
+usar a stylesheet language SASS e algumas das suas funcionalidades.
 
-veja alguns exemplos, abaixo:
+Veja alguns exemplos, abaixo:
 
 #### Variáveis 
 
@@ -78,10 +78,10 @@ $font2-grayish-blue-color: hsl(229, 7%, 55%)
     height: 95vh
 ```
             
-### o que foi feito 
+### O que foi feito 
 - Estilização da tela mobile (telas de 320 a 425px)  ✅
 - Deploy no Git-pages ✅ [CLIQUE AQUI PARA ACESSAR A PÁGINA! ](https://odisseu93.github.io/fylo-data-storage-component-master/)       
 
-### o que falta fazer
+### O que falta fazer
 - Estilização para outras telas 👷
 - refatoração do código 👷            
