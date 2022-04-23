@@ -8,3 +8,8 @@
 @mixin flex-box($direction: row)
   display: flex
   flex-direction: $direction
+
+//mixin para media queries, tem que passar a largura mínima e máxima como parâmetros  
+@mixin media-query($min: 320px, $max: 425px)
+  @media (min-width: $min) and (max-width: $max)
+    @content // @content is a directive of Sass which allows for the insertion of content later on.
