@@ -5,7 +5,7 @@
 ## Bem vindo! 👋
 
 
-Estes é  um desafio proposto no [Frontend Mentor](https://www.frontendmentor.io) Lá tem desafios que ajudam você a melhorar as suas *coding skills by building realistic projects*.
+Estes é  um desafio proposto no [Frontend Mentor](https://www.frontendmentor.io) Lá tem desafios que ajudam você a melhorar as suas *coding skills by building realistic projects*. [PÁGINA](https://odisseu93.github.io/fylo-data-storage-component-master/)  
 
 
 ## The challenge
@@ -80,7 +80,7 @@ $font2-grayish-blue-color: hsl(229, 7%, 55%)
             
 ### o que foi feito 
 - Estilização da tela mobile (telas de 320 a 425px)  ✅
-- Deploy no Git-pages ✅          
+- Deploy no Git-pages ✅ [CLIQUE AQUI PARA ACESSAR A PÁGINA! ](https://odisseu93.github.io/fylo-data-storage-component-master/)       
 
 ### o que falta fazer
 - Estilização para outras telas 👷
