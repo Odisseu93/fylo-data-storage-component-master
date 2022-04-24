@@ -11,12 +11,12 @@
   flex-direction: $direction
 
 @mixin body-content($bg-url:'../images/bg-mobile.png')
-      body
-        background: variables.$background-very-Dark-Blue-color
-        width: 100vw
-        height: 100vh
-        background-image: url($bg-url)
-        background-size: cover  
+  body
+    background: variables.$background-very-Dark-Blue-color
+    width: 100vw
+    height: 100vh
+    background-image: url($bg-url)
+    background-size: cover
 
 //mixin para media queries, tem que passar a largura mínima e máxima como parâmetros  
 @mixin media-query($min: 320px, $max: 425px)
@@ -33,11 +33,10 @@
     height: 200px
     border-radius: 10px 100px 10px 10px
     margin-bottom: 2.5%
-      
 
   .icons-storage-icons
-    
-    img 
+
+    img
       display: inline-block
       justify-content: center
       background: variables.$background-very-Dark-Blue-color
@@ -47,7 +46,35 @@
       border-radius: 10px
       margin-left: 10px
 
-        
   .icons-storage-hdr
     margin-bottom: 2.5em
-    width: 100%  
+    width: 100%
+
+@mixin status-storage-box-container($width:50em)
+  .status-storage-box
+    @include flex-column-center
+    margin-top: 2.5%
+    background: variables.$background-Dark-Blue-color
+    width: 50em
+    height: 164px
+    border-radius: 10px
+
+    .status-storage-bar
+      margin-top: 1em
+      background: #141F4C
+      width: 75%
+      border: 3px solid #141F4C
+      border-radius: 90px
+      margin-bottom: 0.7em
+
+      .status-storage-bar-active
+        @include flex-box
+        justify-content: flex-end
+        background: variables.$storage-status-bar-pink-color
+        width: 81.5%
+        border-radius: 90px
+
+    .status-storage-numbers
+      @include flex-box
+      width: 75%
+      justify-content: space-between
