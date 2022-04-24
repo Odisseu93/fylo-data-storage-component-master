@@ -22,3 +22,32 @@
 @mixin media-query($min: 320px, $max: 425px)
   @media (min-width: $min) and (max-width: $max)
     @content // @content is a directive of Sass which allows for the insertion of content later on.
+
+@mixin icons-storage-box-container($width:20em)
+  .icons-storage-box
+    @include flex-box($direction: column)
+    padding-left: 2.6em
+    padding-top: 3em
+    background: variables.$background-Dark-Blue-color
+    width: $width
+    height: 200px
+    border-radius: 10px 100px 10px 10px
+    margin-bottom: 2.5%
+      
+
+  .icons-storage-icons
+    
+    img 
+      display: inline-block
+      justify-content: center
+      background: variables.$background-very-Dark-Blue-color
+      padding: 12px
+      width: 40px
+      height: 40px
+      border-radius: 10px
+      margin-left: 10px
+
+        
+  .icons-storage-hdr
+    margin-bottom: 2.5em
+    width: 100%  
