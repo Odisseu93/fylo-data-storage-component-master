@@ -107,8 +107,20 @@
 
 
 //desktop  
-@include mixins.media-query($min:1024px, $max:1600px)
+@include mixins.media-query($min:1024px, $max:2560px)
   @include mixins.body-content($bg-url:'../images/bg-desktop.png')
+  .main
+    @include mixins.flex-box
+    align-items: center
+    justify-content: center
+    
+    width: 100vw
+    height: 95vh
+   
+  @include mixins.icons-storage-box-container($width:25em)
 
-   
-   
+  .icons-storage-box
+    margin-right: 2em
+    
+  @include mixins.status-storage-box-container($width:50em)
+  
