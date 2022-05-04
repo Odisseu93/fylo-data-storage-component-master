@@ -83,5 +83,5 @@ $font2-grayish-blue-color: hsl(229, 7%, 55%)
 - Deploy no Git-pages ✅ [CLIQUE AQUI PARA ACESSAR A PÁGINA! ](https://odisseu93.github.io/fylo-data-storage-component-master/)       
 
 ### O que falta fazer
-- Estilização para outras telas 👷
+- Estilização para a tela de 1440px 👷
 - refatoração do código 👷            
